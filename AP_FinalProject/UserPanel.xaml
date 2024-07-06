@@ -1,0 +1,289 @@
+﻿<Page x:Class="AP_FinalProject.UserPanel"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:AP_FinalProject"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="UserPanel">
+
+
+    <Page.Resources>
+        <Style x:Key="SoftButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                            CornerRadius="10"
+                            BorderThickness="4"
+                            BorderBrush="Black">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Effect">
+                                    <Setter.Value>
+                                        <BlurEffect Radius="5"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="SoftCanvasStyle" TargetType="Border">
+            <Setter Property="BorderThickness" Value="4"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <BlurEffect Radius="5"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+
+        <Style x:Key="SoftTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border x:Name="border"
+                            CornerRadius="5"
+                            BorderThickness="2"
+                            BorderBrush="Black">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Effect">
+                                    <Setter.Value>
+                                        <BlurEffect Radius="5"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+    </Page.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/istockphoto-1190533282-612x612.jpg"/>
+        </Grid.Background>
+        <Button x:Name="ProfileButton" Click="ProfileButton_Click" Content="Profile" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="102" Style="{StaticResource SoftButtonStyle}" Margin="652,34,0,0"/>
+        <Canvas x:Name="ProfileCanvas" HorizontalAlignment="Left" Height="349" Margin="512,68,0,0" VerticalAlignment="Top" Width="278" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/a65cb5e442c0eb58c5f960aa6d6d4629.jpg"/>
+            </Canvas.Background>
+            <TextBlock x:Name="FirstnameTB" Canvas.Left="26" Canvas.Top="89" HorizontalAlignment="Center" VerticalAlignment="Center" Width="242" Height="18" FontWeight="SemiBold"><Run Text=" Firstname: "/><LineBreak/><Run/></TextBlock>
+            <TextBlock x:Name="LastnameTB" Canvas.Left="26" Canvas.Top="117" HorizontalAlignment="Center" VerticalAlignment="Top" Width="202" FontWeight="SemiBold" Height="18"><Run Text="Lastname:"/><LineBreak/><Run/></TextBlock>
+            <TextBlock x:Name="PhoneTB" Canvas.Left="26" Canvas.Top="146" HorizontalAlignment="Center" VerticalAlignment="Top" Width="222" Height="18" FontWeight="SemiBold"><Run Text="Phone:"/><LineBreak/><Run/></TextBlock>
+            <TextBlock x:Name="EmailTB" Height="18" Canvas.Left="26" TextWrapping="Wrap" Text="Email:" Canvas.Top="174" Width="222" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock x:Name="UsernameTB" Height="18" Canvas.Left="26" TextWrapping="Wrap" Canvas.Top="57" Width="222" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="SemiBold"><Run Text="Username:"/><LineBreak/><Run/></TextBlock>
+            <TextBlock x:Name="PostalCodeTB" Height="54" Canvas.Left="26" TextWrapping="Wrap" Canvas.Top="220" Width="222" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Postal Code: " FontWeight="SemiBold"/>
+            <TextBlock x:Name="GenderTB" Height="18" Canvas.Left="26" TextWrapping="Wrap" Text="Gender:" Canvas.Top="197" Width="222" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="SemiBold"/>
+            <Button x:Name="EditButton" Content="Edit" Height="42" Canvas.Left="104" Canvas.Top="274" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Click="EditButton_Click" Style="{StaticResource SoftButtonStyle}"/>
+        </Canvas>
+        <TextBlock x:Name="LoggedinAsTB" HorizontalAlignment="Left" Height="18" Margin="327,409,0,0" TextWrapping="Wrap" Text="Logged in as " VerticalAlignment="Top" Width="275" FontWeight="SemiBold"/>
+        <Canvas x:Name="EditCanvas" HorizontalAlignment="Left" Height="382" Margin="512,68,0,0" VerticalAlignment="Top" Width="288" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/c64a2b8f77056c3a54c9a73861c0d6db.jpg"/>
+            </Canvas.Background>
+            <TextBox x:Name="EditPostalCodeTextBox" Height="38" Canvas.Left="54" TextWrapping="Wrap" Canvas.Top="267" Width="202" HorizontalAlignment="Center" VerticalAlignment="Top" Style="{StaticResource SoftTextBoxStyle}" />
+            <TextBlock x:Name="EditPostalCodeTB" Height="18" Canvas.Left="54" TextWrapping="Wrap" Text="Enter your new Postal code: " Canvas.Top="244" Width="176" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="SemiBold"/>
+            <ComboBox x:Name="EditGenderComboBox" Height="22" Canvas.Left="127" Canvas.Top="46" Width="115" SelectionChanged="ComboBox_SelectionChanged" Background="White" BorderBrush="White" HorizontalAlignment="Left" VerticalAlignment="Top" >
+                <TextBlock TextWrapping="Wrap"/>
+                <ComboBoxItem>Male</ComboBoxItem>
+                <ComboBoxItem>Female</ComboBoxItem>
+                <ComboBoxItem>Other</ComboBoxItem>
+            </ComboBox>
+            <Button x:Name="OKButton" Content="OK" Height="38" Canvas.Left="156" Canvas.Top="310" Width="86" Click="OKButton_Click" FontWeight="SemiBold" Style="{StaticResource SoftButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.507,0.495"/>
+            <Button x:Name="EditApplyButton" Content="Apply" Height="38" Canvas.Left="64" Canvas.Top="310" Width="86" HorizontalAlignment="Center" VerticalAlignment="Top"  Style="{StaticResource SoftButtonStyle}" Click="EditApplyButton_Click" RenderTransformOrigin="0.759,0.408"/>
+            <TextBlock x:Name="EditGenderTB" Height="22" Canvas.Left="54" TextWrapping="Wrap" Text="Gender: " Canvas.Top="46" Width="97" RenderTransformOrigin="0.63,0.333" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="SemiBold"/>
+            <TextBlock x:Name="EditServiceTB" Height="20" Canvas.Left="54" TextWrapping="Wrap" Canvas.Top="73" Width="167" Text="Change Service Type: " FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Button x:Name="BronzeButton" Content="Bronze" Height="28" Canvas.Left="64" Canvas.Top="98" Width="146" HorizontalAlignment="Left" VerticalAlignment="Center" Click="BronzeButton_Click" Style="{StaticResource SoftButtonStyle}" Foreground="#FFCD7F32" FontWeight="SemiBold"/>
+            <Button x:Name="SilverButton" Content="Silver" Height="28" Canvas.Left="64" Canvas.Top="150" Width="146" HorizontalAlignment="Left" VerticalAlignment="Center" Style="{StaticResource SoftButtonStyle}" Foreground="#FF757575" Click="SilverButton_Click" FontWeight="SemiBold"/>
+            <Button x:Name="GoldButton" Content="Gold" Height="28" Canvas.Left="64" Canvas.Top="206" Width="146" Style="{StaticResource SoftButtonStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFE3AB1C" Click="GoldButton_Click" FontWeight="SemiBold"/>
+            <Image Source="icons8-bronze-medal-80.png" Width="51" Height="54" Canvas.Left="212" Canvas.Top="85" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Image Source="icons8-silver-medal-80.png" Width="51" Height="54" Canvas.Left="212" Canvas.Top="138" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Image Source="icons8-gold-medal-80.png" Width="51" Height="54" Canvas.Left="212" Canvas.Top="194" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Canvas>
+        <Canvas x:Name="GoldCanvas" HorizontalAlignment="Left" Height="349" Margin="512,68,0,0" VerticalAlignment="Top" Width="278" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/c64a2b8f77056c3a54c9a73861c0d6db.jpg"/>
+            </Canvas.Background>
+            <TextBlock x:Name="GoldServiceTB" Height="164" Canvas.Left="60" TextWrapping="Wrap" Text="The Gold special service costs 300 Tomans and offers 15 reservations per month, a reservation time of 3 hours, and a penalty threshold of 15 minutes." Canvas.Top="41" Width="181" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16"/>
+            <Button x:Name="GoGoldButton" Content="Go Gold!" Height="35" Canvas.Left="86" Canvas.Top="200" Width="128" Style="{StaticResource SoftButtonStyle}" FontWeight="SemiBold" Foreground="Goldenrod" Click="GoGoldButton_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Button x:Name="GoldOKButton" Content="OK" Height="35" Canvas.Left="86" Canvas.Top="240" Width="128" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource SoftButtonStyle}" Click="GoldOKButton_Click"/>
+
+        </Canvas>
+
+        <Canvas x:Name="SilverCanvas" HorizontalAlignment="Left" Height="349" Margin="512,68,0,0" VerticalAlignment="Top" Width="278" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/c64a2b8f77056c3a54c9a73861c0d6db.jpg"/>
+            </Canvas.Background>
+            <TextBlock x:Name="SilverServiceTB" Height="164" Canvas.Left="60" TextWrapping="Wrap" Text="The Silver special service costs 150 Tomans and offers 5 reservations per month, a reservation time of 90 minutes, and a penalty threshold of 30 minutes." Canvas.Top="37" Width="188" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button x:Name="GoSilverButton" Content="Go Silver!" Height="35" Canvas.Left="86" Canvas.Top="201" Width="128" Click="GoSilverButton_Click" Style="{StaticResource SoftButtonStyle}" Foreground="#FF757575" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button x:Name="SilverOKButton" Content="OK" Height="35" Canvas.Left="86" Canvas.Top="241" Width="128" HorizontalAlignment="Center" VerticalAlignment="Top" Style="{StaticResource SoftButtonStyle}" Click="SilverOKButton_Click"/>
+
+        </Canvas>
+
+        <Canvas x:Name="BronzeCanvas" HorizontalAlignment="Left" Height="349" Margin="512,68,0,0" VerticalAlignment="Top" Width="278" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/c64a2b8f77056c3a54c9a73861c0d6db.jpg"/>
+            </Canvas.Background>
+            <TextBlock x:Name="BronzeServiceTB" Height="159" Canvas.Left="52" TextWrapping="Wrap" Text="The Bronze special service costs 100 Tomans and offers 2 reservations per month with a reservation time of 1 hour and a penalty threshold of 30 minutes." Canvas.Top="37" Width="206" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="GoBronzeButton" Content="Go Bronze!" Height="41" Canvas.Left="86" Canvas.Top="191" Width="128" RenderTransformOrigin="0.484,0.695" HorizontalAlignment="Center" VerticalAlignment="Top" Click="GoBronzeButton_Click" FontWeight="SemiBold" Style="{StaticResource SoftButtonStyle}" Foreground="#FFCD7F32"/>
+
+            <Button x:Name="BronzeOKButton" Content="OK" Height="41" Canvas.Left="86" Canvas.Top="237" Width="128" RenderTransformOrigin="0.692,0.243" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource SoftButtonStyle}" Click="BronzeOKButton_Click"/>
+
+        </Canvas>
+        <Canvas x:Name="ExistingServiceCanvas" HorizontalAlignment="Left" Height="349" Margin="512,68,0,0" VerticalAlignment="Top" Width="278" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/pi78gpM5T.png"/>
+            </Canvas.Background>
+            <TextBlock x:Name="ExistingServiceTB" Height="68" Canvas.Left="46" TextWrapping="Wrap" Text="You already have an existing Premium Service, would you like to continue?" Canvas.Top="27" Width="156" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Button x:Name="ExistingNoButton" Content="No" Height="26" Canvas.Left="135" Canvas.Top="95" Width="67" Style="{StaticResource SoftButtonStyle}" Click="ExistingNoButton_Click"/>
+            <Button x:Name="ExistingYesButton" Content="Yes" Height="26" Canvas.Left="46" Canvas.Top="95" Width="67"  Style="{StaticResource SoftButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Click="ExistingYesButton_Click"/>
+            <Button x:Name="ExistingOKButton" Content="OK" Height="32" Canvas.Left="86" Canvas.Top="92" Width="76" Style="{StaticResource SoftButtonStyle}" Click="ExistingOKButton_Click" />
+        </Canvas>
+        <TextBlock x:Name="ServiceMedalTB" HorizontalAlignment="Left" Height="13" Margin="384,427,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98" FontWeight="SemiBold"/>
+
+        <TextBox x:Name="NameSearchTextBox" HorizontalAlignment="Left" Margin="54,38,0,389" Width="200" Style="{StaticResource SoftTextBoxStyle}" GotFocus="SearchTextBox_GotFocus" LostFocus="SearchTextBox_LostFocus" />
+        <TextBlock x:Name="RestaurantNamePlaceholder" HorizontalAlignment="Left" Height="17" Margin="60,44,0,0" Width="194" Text="Name" VerticalAlignment="Top" Visibility="Visible" Opacity="0.5" FontSize="13" />
+        <ComboBox x:Name="CityComboBox" HorizontalAlignment="Left" Height="30" Margin="283,38,0,382" Width="150" SelectionChanged="CityComboBox_SelectionChanged" BorderThickness="5,5,5,5" SnapsToDevicePixels="True">
+        </ComboBox>
+
+        <ComboBox x:Name="RestaurantTypeComboBox" HorizontalAlignment="Left" Height="30" Margin="452,38,0,382" Width="150" SelectionChanged="RestaurantTypeComboBox_SelectionChanged" BorderBrush="#FF080707" BorderThickness="5,5,5,5">
+            <ComboBoxItem>Delivery</ComboBoxItem>
+            <ComboBoxItem>DineIn</ComboBoxItem>
+        </ComboBox>
+        <Slider x:Name="MinRatingSlider"
+        HorizontalAlignment="Left"
+        Height="30"
+        Margin="283,210,0,210"
+        Width="194"
+        Minimum="1"
+        Maximum="5"
+        Value="1"
+        ValueChanged="MinRatingSlider_ValueChanged"
+        TickPlacement="BottomRight"
+        TickFrequency="0.5"
+        IsSnapToTickEnabled="True" BorderThickness="5,5,5,5">
+            <Slider.Template>
+                <ControlTemplate TargetType="Slider">
+                    <Grid>
+                        <TickBar x:Name="TopTick"
+                         Fill="Black"
+                         Height="10"
+                         Placement="Top"
+                         Visibility="Visible" />
+                        <Track x:Name="PART_Track" OpacityMask="Black">
+                            <Track.Thumb>
+                                <Thumb Background="White"
+                               BorderBrush="#FF111111"
+                               BorderThickness="2"
+                               Width="20"
+                               Height="20" />
+                            </Track.Thumb>
+                        </Track>
+                        <TickBar x:Name="BottomTick"
+                         Fill="Black"
+                         Height="10"
+                         Placement="Bottom"
+                         Visibility="Visible"
+                         Minimum="1"
+                         Maximum="5"
+                         TickFrequency="1"
+                         IsDirectionReversed="False"
+                         SnapsToDevicePixels="True" />
+                        <TextBlock x:Name="TickBorderTB" HorizontalAlignment="Left" Height="38" Margin="0,77,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="185" Background="Black"/>
+                    </Grid>
+                </ControlTemplate>
+            </Slider.Template>
+        </Slider>
+
+
+
+        <TextBlock x:Name="MinRatingTextBlock" HorizontalAlignment="Left" Height="18" Margin="333,235,0,0" TextWrapping="Wrap" Text="Min Rating: 0" VerticalAlignment="Top" RenderTransformOrigin="7.127,0.123" Width="99" FontWeight="SemiBold" >
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.547"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+        <TextBlock x:Name="ErrorTB" HorizontalAlignment="Left" Height="39" Margin="95,112,0,0" TextWrapping="Wrap" Text="ERROR!" VerticalAlignment="Top" Width="125" Foreground="Red" FontWeight="DemiBold" FontSize="16" Visibility="Collapsed">
+            <TextBlock.Background>
+                <ImageBrush/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock x:Name="CityComboBoxTB" HorizontalAlignment="Left" Height="15" Margin="283,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontWeight="SemiBold"><Run Text="City:"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="TypeComboBoxTB" HorizontalAlignment="Left" Height="18" Margin="456,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontWeight="SemiBold"><Run Text="Type:"/><LineBreak/><Run/></TextBlock>
+        <ListBox x:Name="RestaurantListBox" HorizontalAlignment="Left" Margin="54,85,0,23" Width="200" SelectionChanged="RestaurantListBox_SelectionChanged">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <Border x:Name="border"
+                            CornerRadius="10"
+                            BorderThickness="2"
+                            BorderBrush="Black"
+                            Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="border" Property="Effect">
+                                            <Setter.Value>
+                                                <BlurEffect Radius="5"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter TargetName="border" Property="Background" Value="LightGray"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+
+
+
+
+        <Button x:Name="FilterButton" Content="Filter" HorizontalAlignment="Left" Height="40" Margin="283,93,0,0" VerticalAlignment="Top" Width="106"  Style="{StaticResource SoftButtonStyle}" Click="FilterButton_Click"/>
+        <TextBlock x:Name="DebuggerTB" HorizontalAlignment="Left" Height="56" Margin="336,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Visibility="Collapsed"><Run Text="Debugger: "/><LineBreak/><Run/></TextBlock>
+        <Button x:Name="ResetButton" Content="Reset" HorizontalAlignment="Left" Height="45" Margin="283,138,0,0" VerticalAlignment="Top" Width="106" Style="{StaticResource SoftButtonStyle}" Click="ResetButton_Click" />
+
+        <Frame x:Name="ContentFrame" Navigated="ContentFrame_Navigated" />
+        <Canvas x:Name="AddressCanvas" HorizontalAlignment="Left" Height="152" Margin="267,160,0,0" VerticalAlignment="Top" Width="247" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/pi78gpM5T.png"/>
+            </Canvas.Background>
+            <TextBlock x:Name="AddressTB" Height="89" Canvas.Left="18" TextWrapping="Wrap" Text="This restaurant is located in " Canvas.Top="10" Width="204"/>
+            <Button x:Name="OKNavigationButton" Content="OK" Height="36" Canvas.Left="124" Canvas.Top="99" Width="92" HorizontalAlignment="Left" VerticalAlignment="Center" Style="{StaticResource SoftButtonStyle}" Click="OKNavigationButton_Click"/>
+            <Button x:Name="CancelNavigationButton" Content="Cancel" Height="36" Canvas.Left="27" Canvas.Top="99" Width="92" HorizontalAlignment="Left" VerticalAlignment="Center" Style="{StaticResource SoftButtonStyle}" Click="CancelNavigationButton_Click"/>
+        </Canvas>
+    </Grid>
+</Page>
