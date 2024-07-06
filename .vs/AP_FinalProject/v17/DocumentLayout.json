@@ -1,0 +1,829 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "U:\\AP_FinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|u:\\ap_finalproject\\ap_finalproject\\jo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\jo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\jo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\jo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\mydbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\mydbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\userpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\userpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\orderclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\orderclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\lava_cake.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\lava_cake.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\logo.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\logo.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\userpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\userpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kasra\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\th.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\th.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\pexels-rachel-claire-5491009.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\pexels-rachel-claire-5491009.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\pi78gpm5t.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\pi78gpm5t.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\restaurant-8.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\restaurant-8.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\istockphoto-539199982-2048x2048.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\istockphoto-539199982-2048x2048.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\istockphoto-1190533282-612x612.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\istockphoto-1190533282-612x612.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\interior.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\interior.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\icons8-silver-medal-80.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\icons8-silver-medal-80.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\icons8-gold-medal-80.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\icons8-gold-medal-80.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\icons8-bronze-medal-80.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\icons8-bronze-medal-80.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\horizontal.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\horizontal.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\flying-birds-silhouette-23.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\flying-birds-silhouette-23.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\cropped-blur-background-of-pub-restaurant-with-wood-table-628137314_2125x1416.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\cropped-blur-background-of-pub-restaurant-with-wood-table-628137314_2125x1416.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\c64a2b8f77056c3a54c9a73861c0d6db.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\c64a2b8f77056c3a54c9a73861c0d6db.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\a65cb5e442c0eb58c5f960aa6d6d4629.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\a65cb5e442c0eb58c5f960aa6d6d4629.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\6ab1274c60a1a5a026e386d70b3d2782.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\6ab1274c60a1a5a026e386d70b3d2782.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\503a3069_3.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\503a3069_3.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\360_f_579485400_8jsrbgnqp1bwuojwujmrs79yjmzqv6fw.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\360_f_579485400_8jsrbgnqp1bwuojwujmrs79yjmzqv6fw.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\233-2339364_restaurant-wallpaper-design.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\233-2339364_restaurant-wallpaper-design.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\screenshot 2024-06-08 105406.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\screenshot 2024-06-08 105406.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\passwordconfirmer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\passwordconfirmer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\passwordconfirmer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\passwordconfirmer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|U:\\AP_FinalProject\\ap_finalproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07CA8C93-D312-4E57-8DCA-ABE72D52B002}|AP_FinalProject\\AP_FinalProject.csproj|solutionrelative:ap_finalproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ASUS_SQLEXPRESS/AP_ProjectDatabase/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kasra\\AppData\\Local\\Temp\\.vsdbgsrc\\fa6bc87b25baa4e9ad9a4c60d3a2c4806f339c0b6f13fab1522ceaff8877ae44\\Application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\flying-birds-silhouette-23.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-09 084400.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-09 083844.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 105406.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 103045.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 102539.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 220,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\kasra\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\kasra\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:40:26.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/ASUS_SQLEXPRESS/AP_ProjectDatabase/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/ASUS_SQLEXPRESS/AP_ProjectDatabase/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-02T12:28:52.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\kasra\\AppData\\Local\\Temp\\.vsdbgsrc\\fa6bc87b25baa4e9ad9a4c60d3a2c4806f339c0b6f13fab1522ceaff8877ae44\\Application.cs",
+              "ToolTip": "C:\\Users\\kasra\\AppData\\Local\\Temp\\.vsdbgsrc\\fa6bc87b25baa4e9ad9a4c60d3a2c4806f339c0b6f13fab1522ceaff8877ae44\\Application.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T13:14:13.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "flying-birds-silhouette-23.png",
+              "DocumentMoniker": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\flying-birds-silhouette-23.png",
+              "RelativeDocumentMoniker": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\flying-birds-silhouette-23.png",
+              "ToolTip": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\flying-birds-silhouette-23.png",
+              "RelativeToolTip": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\flying-birds-silhouette-23.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-27T11:04:34.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Screenshot 2024-06-09 084400.png",
+              "DocumentMoniker": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-09 084400.png",
+              "RelativeDocumentMoniker": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-09 084400.png",
+              "ToolTip": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-09 084400.png",
+              "RelativeToolTip": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-09 084400.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-27T08:17:46.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Screenshot 2024-06-09 083844.png",
+              "DocumentMoniker": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-09 083844.png",
+              "RelativeDocumentMoniker": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-09 083844.png",
+              "ToolTip": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-09 083844.png",
+              "RelativeToolTip": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-09 083844.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-27T08:17:45.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Screenshot 2024-06-08 105406.png",
+              "DocumentMoniker": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 105406.png",
+              "RelativeDocumentMoniker": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 105406.png",
+              "ToolTip": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 105406.png",
+              "RelativeToolTip": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 105406.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-27T08:17:45.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Screenshot 2024-06-08 103045.png",
+              "DocumentMoniker": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 103045.png",
+              "RelativeDocumentMoniker": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 103045.png",
+              "ToolTip": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 103045.png",
+              "RelativeToolTip": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 103045.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-27T08:17:44.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Screenshot 2024-06-08 102539.png",
+              "DocumentMoniker": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 102539.png",
+              "RelativeDocumentMoniker": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 102539.png",
+              "ToolTip": "U:\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 102539.png",
+              "RelativeToolTip": "..\\APFinalProject\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 102539.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-27T08:17:42.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Jo.xaml.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Jo.xaml.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Jo.xaml.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Jo.xaml.cs",
+              "RelativeToolTip": "AP_FinalProject\\Jo.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:31:17.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Jo.xaml",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Jo.xaml",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Jo.xaml",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Jo.xaml",
+              "RelativeToolTip": "AP_FinalProject\\Jo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-05T18:39:21.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Cart.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Cart.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Cart.cs",
+              "RelativeToolTip": "AP_FinalProject\\Cart.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:34:43.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lava_cake.jpg - Bitmap [427x377, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Lava_cake.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Lava_cake.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Lava_cake.jpg - Bitmap [427x377, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\Lava_cake.jpg - Bitmap [427x377, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-06T14:36:35.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RatingService.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\RatingService.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\RatingService.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\RatingService.cs",
+              "RelativeToolTip": "AP_FinalProject\\RatingService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T10:15:47.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserPanel.xaml",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\UserPanel.xaml",
+              "RelativeDocumentMoniker": "AP_FinalProject\\UserPanel.xaml",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\UserPanel.xaml",
+              "RelativeToolTip": "AP_FinalProject\\UserPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-02T09:16:24.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserPanel.xaml.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\UserPanel.xaml.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\UserPanel.xaml.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\UserPanel.xaml.cs",
+              "RelativeToolTip": "AP_FinalProject\\UserPanel.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T12:48:24.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderClasses.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\OrderClasses.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\OrderClasses.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\OrderClasses.cs",
+              "RelativeToolTip": "AP_FinalProject\\OrderClasses.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T09:52:52.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "logo.jpg - Bitmap [600x600, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\logo.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\logo.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\logo.jpg - Bitmap [600x600, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\logo.jpg - Bitmap [600x600, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:39:29.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "th.jpg - Bitmap [220x220, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\th.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\th.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\th.jpg - Bitmap [220x220, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\th.jpg - Bitmap [220x220, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:35:26.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "icons8-bronze-medal-80.png - PNG [80x80, 32 bit, PNG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\icons8-bronze-medal-80.png",
+              "RelativeDocumentMoniker": "AP_FinalProject\\icons8-bronze-medal-80.png",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\icons8-bronze-medal-80.png - PNG [80x80, 32 bit, PNG]",
+              "RelativeToolTip": "AP_FinalProject\\icons8-bronze-medal-80.png - PNG [80x80, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:38.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "cropped-blur-background-of-pub-restaurant-with-wood-table-628137314_2125x1416.jpeg",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\cropped-blur-background-of-pub-restaurant-with-wood-table-628137314_2125x1416.jpeg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\cropped-blur-background-of-pub-restaurant-with-wood-table-628137314_2125x1416.jpeg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\cropped-blur-background-of-pub-restaurant-with-wood-table-628137314_2125x1416.jpeg",
+              "RelativeToolTip": "AP_FinalProject\\cropped-blur-background-of-pub-restaurant-with-wood-table-628137314_2125x1416.jpeg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:35.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "a65cb5e442c0eb58c5f960aa6d6d4629.jpg - Bitmap [736x932, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\a65cb5e442c0eb58c5f960aa6d6d4629.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\a65cb5e442c0eb58c5f960aa6d6d4629.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\a65cb5e442c0eb58c5f960aa6d6d4629.jpg - Bitmap [736x932, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\a65cb5e442c0eb58c5f960aa6d6d4629.jpg - Bitmap [736x932, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:31.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Screenshot 2024-06-08 105406.png - PNG [967x572, 32 bit, PNG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 105406.png",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Screenshot 2024-06-08 105406.png",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Screenshot 2024-06-08 105406.png - PNG [967x572, 32 bit, PNG]",
+              "RelativeToolTip": "AP_FinalProject\\Screenshot 2024-06-08 105406.png - PNG [967x572, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:25.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "restaurant-8.jpg - Bitmap [2811x2169, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\restaurant-8.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\restaurant-8.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\restaurant-8.jpg - Bitmap [2811x2169, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\restaurant-8.jpg - Bitmap [2811x2169, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:23.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "503a3069_3.jpg - Bitmap [700x466, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\503a3069_3.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\503a3069_3.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\503a3069_3.jpg - Bitmap [700x466, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\503a3069_3.jpg - Bitmap [700x466, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:18.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "6ab1274c60a1a5a026e386d70b3d2782.jpg - Bitmap [2364x1576, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\6ab1274c60a1a5a026e386d70b3d2782.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\6ab1274c60a1a5a026e386d70b3d2782.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\6ab1274c60a1a5a026e386d70b3d2782.jpg - Bitmap [2364x1576, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\6ab1274c60a1a5a026e386d70b3d2782.jpg - Bitmap [2364x1576, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:17.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "360_F_579485400_8jSrBgNQP1BWUOjWujmRS79YJmzQv6fw.jpg - Bitmap [630x360, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\360_F_579485400_8jSrBgNQP1BWUOjWujmRS79YJmzQv6fw.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\360_F_579485400_8jSrBgNQP1BWUOjWujmRS79YJmzQv6fw.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\360_F_579485400_8jSrBgNQP1BWUOjWujmRS79YJmzQv6fw.jpg - Bitmap [630x360, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\360_F_579485400_8jSrBgNQP1BWUOjWujmRS79YJmzQv6fw.jpg - Bitmap [630x360, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:16.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "233-2339364_restaurant-wallpaper-design.png - PNG [1920x1080, 8 bit, PNG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\233-2339364_restaurant-wallpaper-design.png",
+              "RelativeDocumentMoniker": "AP_FinalProject\\233-2339364_restaurant-wallpaper-design.png",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\233-2339364_restaurant-wallpaper-design.png - PNG [1920x1080, 8 bit, PNG]",
+              "RelativeToolTip": "AP_FinalProject\\233-2339364_restaurant-wallpaper-design.png - PNG [1920x1080, 8 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:15.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "interior.jpg - Bitmap [600x400, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\interior.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\interior.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\interior.jpg - Bitmap [600x400, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\interior.jpg - Bitmap [600x400, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:13.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "icons8-silver-medal-80.png - PNG [80x80, 32 bit, PNG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\icons8-silver-medal-80.png",
+              "RelativeDocumentMoniker": "AP_FinalProject\\icons8-silver-medal-80.png",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\icons8-silver-medal-80.png - PNG [80x80, 32 bit, PNG]",
+              "RelativeToolTip": "AP_FinalProject\\icons8-silver-medal-80.png - PNG [80x80, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:12.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "icons8-gold-medal-80.png - PNG [80x80, 32 bit, PNG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\icons8-gold-medal-80.png",
+              "RelativeDocumentMoniker": "AP_FinalProject\\icons8-gold-medal-80.png",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\icons8-gold-medal-80.png - PNG [80x80, 32 bit, PNG]",
+              "RelativeToolTip": "AP_FinalProject\\icons8-gold-medal-80.png - PNG [80x80, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:11.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "c64a2b8f77056c3a54c9a73861c0d6db.jpg - Bitmap [563x1002, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\c64a2b8f77056c3a54c9a73861c0d6db.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\c64a2b8f77056c3a54c9a73861c0d6db.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\c64a2b8f77056c3a54c9a73861c0d6db.jpg - Bitmap [563x1002, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\c64a2b8f77056c3a54c9a73861c0d6db.jpg - Bitmap [563x1002, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:10.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "flying-birds-silhouette-23.png - PNG [1600x1600, 32 bit, PNG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\flying-birds-silhouette-23.png",
+              "RelativeDocumentMoniker": "AP_FinalProject\\flying-birds-silhouette-23.png",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\flying-birds-silhouette-23.png - PNG [1600x1600, 32 bit, PNG]",
+              "RelativeToolTip": "AP_FinalProject\\flying-birds-silhouette-23.png - PNG [1600x1600, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:10.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Horizontal.jpg - Bitmap [736x932, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Horizontal.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Horizontal.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Horizontal.jpg - Bitmap [736x932, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\Horizontal.jpg - Bitmap [736x932, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:09.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "istockphoto-1190533282-612x612.jpg - Bitmap [612x408, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\istockphoto-1190533282-612x612.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\istockphoto-1190533282-612x612.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\istockphoto-1190533282-612x612.jpg - Bitmap [612x408, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\istockphoto-1190533282-612x612.jpg - Bitmap [612x408, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:08.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "istockphoto-539199982-2048x2048.jpg - Bitmap [2048x1322, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\istockphoto-539199982-2048x2048.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\istockphoto-539199982-2048x2048.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\istockphoto-539199982-2048x2048.jpg - Bitmap [2048x1322, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\istockphoto-539199982-2048x2048.jpg - Bitmap [2048x1322, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:07.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "pexels-rachel-claire-5491009.jpg - Bitmap [5472x3648, 24 bit, JPG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\pexels-rachel-claire-5491009.jpg",
+              "RelativeDocumentMoniker": "AP_FinalProject\\pexels-rachel-claire-5491009.jpg",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\pexels-rachel-claire-5491009.jpg - Bitmap [5472x3648, 24 bit, JPG]",
+              "RelativeToolTip": "AP_FinalProject\\pexels-rachel-claire-5491009.jpg - Bitmap [5472x3648, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:03.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "pi78gpM5T.png - PNG [1500x1125, 24 bit, PNG]",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\pi78gpM5T.png",
+              "RelativeDocumentMoniker": "AP_FinalProject\\pi78gpM5T.png",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\pi78gpM5T.png - PNG [1500x1125, 24 bit, PNG]",
+              "RelativeToolTip": "AP_FinalProject\\pi78gpM5T.png - PNG [1500x1125, 24 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-05T09:33:02.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Page3.xaml",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Page3.xaml",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Page3.xaml",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Page3.xaml",
+              "RelativeToolTip": "AP_FinalProject\\Page3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-27T15:38:42.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Restaurant.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Restaurant.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Restaurant.cs",
+              "RelativeToolTip": "AP_FinalProject\\Restaurant.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T20:22:43.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AP_FinalProject\\MainWindow.xaml",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\MainWindow.xaml",
+              "RelativeToolTip": "AP_FinalProject\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T05:29:19.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Page2.xaml.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Page2.xaml.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Page2.xaml.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Page2.xaml.cs",
+              "RelativeToolTip": "AP_FinalProject\\Page2.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:45:52.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "App.config",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\App.config",
+              "RelativeDocumentMoniker": "AP_FinalProject\\App.config",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\App.config",
+              "RelativeToolTip": "AP_FinalProject\\App.config",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-27T11:11:07.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PasswordConfirmer.xaml",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\PasswordConfirmer.xaml",
+              "RelativeDocumentMoniker": "AP_FinalProject\\PasswordConfirmer.xaml",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\PasswordConfirmer.xaml",
+              "RelativeToolTip": "AP_FinalProject\\PasswordConfirmer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-02T08:35:20.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PasswordConfirmer.xaml.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\PasswordConfirmer.xaml.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\PasswordConfirmer.xaml.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\PasswordConfirmer.xaml.cs",
+              "RelativeToolTip": "AP_FinalProject\\PasswordConfirmer.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T08:50:50.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Page3.xaml.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Page3.xaml.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Page3.xaml.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Page3.xaml.cs",
+              "RelativeToolTip": "AP_FinalProject\\Page3.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T07:32:43.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\MainWindow.xaml.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AP_FinalProject\\MainWindow.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T06:45:30.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "packages.config",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\packages.config",
+              "RelativeDocumentMoniker": "AP_FinalProject\\packages.config",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\packages.config",
+              "RelativeToolTip": "AP_FinalProject\\packages.config",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-27T12:58:03.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDBClass.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\MyDBClass.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\MyDBClass.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\MyDBClass.cs",
+              "RelativeToolTip": "AP_FinalProject\\MyDBClass.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:59:50.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Page2.xaml",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Page2.xaml",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Page2.xaml",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Page2.xaml",
+              "RelativeToolTip": "AP_FinalProject\\Page2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-27T07:43:15.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\User.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\User.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\User.cs",
+              "RelativeToolTip": "AP_FinalProject\\User.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:03:24.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "App.xaml",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\App.xaml",
+              "RelativeDocumentMoniker": "AP_FinalProject\\App.xaml",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\App.xaml",
+              "RelativeToolTip": "AP_FinalProject\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-27T08:45:25.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Page1.xaml.cs",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Page1.xaml.cs",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Page1.xaml.cs",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Page1.xaml.cs",
+              "RelativeToolTip": "AP_FinalProject\\Page1.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:25:07.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Page1.xaml",
+              "DocumentMoniker": "U:\\AP_FinalProject\\AP_FinalProject\\Page1.xaml",
+              "RelativeDocumentMoniker": "AP_FinalProject\\Page1.xaml",
+              "ToolTip": "U:\\AP_FinalProject\\AP_FinalProject\\Page1.xaml",
+              "RelativeToolTip": "AP_FinalProject\\Page1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-27T07:19:17.608Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
