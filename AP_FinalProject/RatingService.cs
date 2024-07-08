@@ -57,6 +57,7 @@ public class RatingService
                 .Where(r => r.DishId == dishId)
                 .Average(r => r.RatingValue);
             _context.Entry(dish).State = System.Data.Entity.EntityState.Modified;
+
             _context.SaveChanges();
         }
     }

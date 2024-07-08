@@ -140,3 +140,7 @@ U:\AP_FinalProject\AP_FinalProject\bin\Debug\en\Microsoft.VisualStudio.DesignToo
 U:\AP_FinalProject\AP_FinalProject\bin\Debug\en\Microsoft.Windows.Design.Interaction.resources.dll
 U:\AP_FinalProject\AP_FinalProject\bin\Debug\en\Microsoft.VisualStudio.DesignTools.Extensibility.resources.dll
 U:\AP_FinalProject\AP_FinalProject\bin\Debug\en\Microsoft.Windows.Design.Extensibility.resources.dll
+U:\AP_FinalProject\AP_FinalProject\obj\Debug\AdminPage.g.cs
+U:\AP_FinalProject\AP_FinalProject\obj\Debug\AdminPage.baml
+U:\AP_FinalProject\AP_FinalProject\obj\Debug\JoAdminPanel.g.cs
+U:\AP_FinalProject\AP_FinalProject\obj\Debug\JoAdminPanel.baml

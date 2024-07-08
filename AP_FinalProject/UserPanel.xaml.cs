@@ -41,7 +41,7 @@ namespace AP_FinalProject
             InitializeComponent();
             LoadRestaurants();
             LoadCities();
-            MinRatingSlider.Value = 0; 
+            MinRatingSlider.Value = 0;
             MinRatingTextBlock.Text = $"Min Rating: {MinRatingSlider.Value}";
             //EditGenderComboBox.ItemsSource = _genders;
             using (var dbContext = new MyDbContext())
@@ -53,7 +53,7 @@ namespace AP_FinalProject
                 {
                     ServiceMedalTB.Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFCD7F32"));
                 }
-                if(ServiceMedalTB.Text == "Silver")
+                if (ServiceMedalTB.Text == "Silver")
                 {
                     ServiceMedalTB.Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF757575"));
                 }
@@ -62,7 +62,7 @@ namespace AP_FinalProject
                     ServiceMedalTB.Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFE3AB1C"));
                 }
             }
-                
+
         }
         private void ProfileButton_Click(object sender, RoutedEventArgs e)
         {
@@ -79,7 +79,7 @@ namespace AP_FinalProject
                     LastnameTB.Text = "Lastname: " + user.LastName;
                     EmailTB.Text = "Email: " + user.Email;
                     GenderTB.Text = "Gender: " + user.Gender;
-                    PostalCodeTB.Text = "Postal Code: " +  user.PostalCode;
+                    PostalCodeTB.Text = "Postal Code: " + user.PostalCode;
                 }
             }
 
@@ -95,7 +95,7 @@ namespace AP_FinalProject
             {
                 ProfileCanvas.Visibility = Visibility.Visible;
             }
-            
+
         }
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
@@ -130,7 +130,7 @@ namespace AP_FinalProject
             }
             if (SilverCanvas.Visibility == Visibility.Visible)
             {
-                GoldCanvas.Visibility= Visibility.Collapsed;
+                GoldCanvas.Visibility = Visibility.Collapsed;
             }
             if (BronzeCanvas.Visibility == Visibility.Visible) { BronzeButton.Visibility = Visibility.Collapsed; }
         }
@@ -170,7 +170,7 @@ namespace AP_FinalProject
                 }
             }
 
-            
+
         }
 
         private void BronzeButton_Click(object sender, RoutedEventArgs e)
@@ -182,9 +182,9 @@ namespace AP_FinalProject
 
         private void SilverButton_Click(object sender, RoutedEventArgs e)
         {
-            SilverCanvas.Visibility= Visibility.Visible;
-            BronzeCanvas.Visibility= Visibility.Collapsed;
-            GoldCanvas.Visibility= Visibility.Collapsed;
+            SilverCanvas.Visibility = Visibility.Visible;
+            BronzeCanvas.Visibility = Visibility.Collapsed;
+            GoldCanvas.Visibility = Visibility.Collapsed;
         }
 
         private void GoldButton_Click(object sender, RoutedEventArgs e)
@@ -203,9 +203,9 @@ namespace AP_FinalProject
                 {
 
                     ExistingServiceCanvas.Visibility = Visibility.Visible;
-                    ExistingOKButton.Visibility= Visibility.Visible;
-                    ExistingYesButton.Visibility= Visibility.Collapsed;
-                    ExistingNoButton.Visibility= Visibility.Collapsed;
+                    ExistingOKButton.Visibility = Visibility.Visible;
+                    ExistingYesButton.Visibility = Visibility.Collapsed;
+                    ExistingNoButton.Visibility = Visibility.Collapsed;
                     BronzeOKButton.IsEnabled = false;
                     ExistingServiceTB.Text = "You have already subscribed to this service previously.";
                 }
@@ -218,15 +218,15 @@ namespace AP_FinalProject
                 }
                 else if (String.Equals(user.Service, "Silver") == true || String.Equals(user.Service, "Gold") == true)
                 {
-                    ExistingServiceCanvas.Visibility= Visibility.Visible;
-                    ExistingOKButton.Visibility= Visibility.Visible;
-                    ExistingYesButton.Visibility= Visibility.Collapsed;
+                    ExistingServiceCanvas.Visibility = Visibility.Visible;
+                    ExistingOKButton.Visibility = Visibility.Visible;
+                    ExistingYesButton.Visibility = Visibility.Collapsed;
                     ExistingNoButton.Visibility = Visibility.Collapsed;
                     BronzeOKButton.IsEnabled = false;
                     ExistingServiceTB.Text = "You've previously opted for a higher-tier service.";
                 }
             }
-            
+
         }
 
         private void GoSilverButton_Click(object sender, RoutedEventArgs e)
@@ -269,7 +269,7 @@ namespace AP_FinalProject
                     ExistingServiceTB.Text = "If you proceed, your current service will be terminated. Are you sure you want to continue?";
                 }
             }
-            
+
         }
 
         private void GoGoldButton_Click(object sender, RoutedEventArgs e)
@@ -303,7 +303,7 @@ namespace AP_FinalProject
                     ExistingServiceTB.Text = "If you proceed, your current service will be terminated. Are you sure you want to continue?";
                 }
             }
-            
+
         }
 
         private void ExistingOKButton_Click(object sender, RoutedEventArgs e)
@@ -384,17 +384,17 @@ namespace AP_FinalProject
         }
         private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-           
+
         }
 
         private void CityComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
+
         }
 
         private void RestaurantTypeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           
+
         }
 
         private void MinRatingSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -457,7 +457,7 @@ namespace AP_FinalProject
 
             if (filteredRestaurants.Count == 0)
             {
-                NameSearchTextBox.Text = string.Empty;  
+                NameSearchTextBox.Text = string.Empty;
                 MinRatingSlider.Value = 1;
                 RestaurantListBox.ItemsSource = null;
                 MessageBox.Show("No restaurants available with this filter.", "Filter Result", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -483,7 +483,7 @@ namespace AP_FinalProject
                     AddressTB.Text = $"This restaurant is located in {restaurant.Address}.";
                     AddressCanvas.Visibility = Visibility.Visible;
                 }
-                
+
             }
         }
 

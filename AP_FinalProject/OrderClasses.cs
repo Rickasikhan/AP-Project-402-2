@@ -82,6 +82,8 @@ namespace AP_FinalProject
         public string Description { get; set; }
         public DateTime CreatedAt { get; set; }
 
+        public bool IsCheckedOut { get; set; }
+
         [ForeignKey("UserId")]
         public virtual User User { get; set; }
 

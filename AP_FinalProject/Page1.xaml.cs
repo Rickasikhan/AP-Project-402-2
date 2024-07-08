@@ -47,20 +47,37 @@ namespace AP_FinalProject
                 string password = PasswordPassBox.Password;
 
                 bool isValidUser = dbContext.Users.Any(u => u.Username == username && u.Password == password);
-
+                bool isValidAdmin = dbContext.Admins.Any(a => a.Username == username && a.Password == password);
+                bool isValidResAdmin = dbContext.JoAdmins.Any(j => j.Username == username && j.Password == password);
                 if (isValidUser)
                 {
-                    //UserPanel userPanel = new UserPanel();
                     UserPanel userPanel = new UserPanel(username);
                     SubmitButton.Visibility = Visibility.Collapsed;
                     UsernameTexBox.Visibility = Visibility.Collapsed;
                     PasswordPassBox.Visibility = Visibility.Collapsed;
                     ContentFrame.Navigate(userPanel);
                 }
+                else if (isValidAdmin)
+                {
+                    AdminPage adminpage = new AdminPage();
+                    SubmitButton.Visibility = Visibility.Collapsed;
+                    UsernameTexBox.Visibility = Visibility.Collapsed;
+                    PasswordPassBox.Visibility = Visibility.Collapsed;
+                    ContentFrame.Navigate(adminpage);
+                }
+                else if (isValidResAdmin)
+                {
+                    JoAdminPanel Joadminpanel = new JoAdminPanel();
+                    SubmitButton.Visibility = Visibility.Collapsed;
+                    UsernameTexBox.Visibility = Visibility.Collapsed;
+                    PasswordPassBox.Visibility = Visibility.Collapsed;
+                    ContentFrame.Navigate(Joadminpanel);
+                }
                 else
                 {
                     WrongCredentialsTB.Visibility = Visibility.Visible;
                 }
+
             }
         }
         private void UsernameTexBox_GotFocus(object sender, RoutedEventArgs e)

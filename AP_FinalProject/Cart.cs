@@ -1,25 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
 namespace AP_FinalProject
 {
-    public static class Cart
+    public class Cart
     {
-        private static List<CartItem> items = new List<CartItem>();
+        [Key]
+        public int CartId { get; set; }
+        public int UserId { get; set; }
+        public string PayType {  get; set; }
+        public virtual User User { get; set; }
+        public virtual List<CartItem> Items { get; set; } = new List<CartItem>();
 
-        public static void AddToCart(Dish dish, int quantity)
+        public DateTime date { get; set; }
+        public string Price { get; set; }
+
+        public Cart() { }
+        public void AddToCart(Dish dish, int quantity)
         {
-            // Check if the dish is already in the cart
-            var existingItem = items.Find(item => item.Dish.DishId == dish.DishId);
+            var existingItem = Items.Find(item => item.Dish.DishId == dish.DishId);
             if (existingItem != null)
             {
-                // Check if adding this quantity exceeds availability
                 if (existingItem.Quantity + quantity > dish.Availability)
                 {
                     throw new InvalidOperationException($"Only {dish.Availability - existingItem.Quantity} more can be added to cart for '{dish.Name}'.");
                 }
                 existingItem.Quantity += quantity;
+
             }
             else
             {
@@ -27,35 +36,50 @@ namespace AP_FinalProject
                 {
                     throw new InvalidOperationException($"Only {dish.Availability} available for '{dish.Name}'.");
                 }
-                items.Add(new CartItem { Dish = dish, Quantity = quantity });
+                Items.Add(new CartItem { Dish = dish, Quantity = quantity, CartId = this.CartId, DishId = dish.DishId});
             }
             dish.Availability -= quantity;
         }
 
-        public static List<CartItem> GetCartItems()
+        public void RemoveItem(int dishId)
         {
-            return items;
+            var itemToRemove = Items.FirstOrDefault(item => item.Dish.DishId == dishId);
+            if (itemToRemove != null)
+            {
+                var dish = itemToRemove.Dish;
+                dish.Availability += itemToRemove.Quantity;
+                Items.Remove(itemToRemove);
+            }
         }
 
-        public static double CalculateTotalPrice()
+        public double CalculateTotalPrice()
         {
             double totalPrice = 0;
-            foreach (var item in items)
+            foreach (var item in Items)
             {
                 totalPrice += item.Dish.Price * item.Quantity;
             }
             return totalPrice;
         }
 
-        public static void ClearCart()
+        public void ClearCart()
         {
-            items.Clear();
+            Items.Clear();
         }
     }
 
     public class CartItem
     {
-        public Dish Dish { get; set; }
+        [Key]
+        public int CartItemId { get; set; }
+        public int CartId { get; set; }
+        public virtual Cart Cart { get; set; }
+        public int DishId { get; set; }
+        public virtual Dish Dish { get; set; }
         public int Quantity { get; set; }
+
+        public CartItem() { }
     }
+
+    
 }

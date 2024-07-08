@@ -128,9 +128,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Admin.cs" />
+    <Compile Include="AdminPage.xaml.cs">
+      <DependentUpon>AdminPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cart.cs" />
     <Compile Include="Jo.xaml.cs">
       <DependentUpon>Jo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JoAdminPanel.xaml.cs">
+      <DependentUpon>JoAdminPanel.xaml</DependentUpon>
     </Compile>
     <Compile Include="OrderClasses.cs" />
     <Compile Include="RatingService.cs" />
@@ -138,7 +145,15 @@
     <Compile Include="UserPanel.xaml.cs">
       <DependentUpon>UserPanel.xaml</DependentUpon>
     </Compile>
+    <Page Include="AdminPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Jo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="JoAdminPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -308,6 +323,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Spaghetti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pexels-padrinan-19670.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pasta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Empty.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

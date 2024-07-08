@@ -28,10 +28,12 @@
             </Setter>
         </Style>
     </Page.Resources>
+
     <Grid Height="600" Width="811">
         <Grid.Background>
             <ImageBrush ImageSource="/5a8f934182897f9f5da7315481b11410.png"/>
         </Grid.Background>
+
         <ScrollViewer x:Name="SaladScrollViewer" Margin="0,147,0,0" HorizontalAlignment="Center" Width="449" RenderTransformOrigin="0.5,0.5" Background="White">
             <ScrollViewer.RenderTransform>
                 <TransformGroup>
@@ -41,20 +43,22 @@
                     <TranslateTransform X="0.982"/>
                 </TransformGroup>
             </ScrollViewer.RenderTransform>
-            <StackPanel x:Name="SaladStackPanel">
+            <StackPanel x:Name="SaladStackPanel" Height="2413">
+
             </StackPanel>
         </ScrollViewer>
 
         <Canvas HorizontalAlignment="Center" Height="77" VerticalAlignment="Top" Width="811" Background="White">
             <Image Source="Screenshot 2024-07-05 120759.png" Canvas.Left="724" HorizontalAlignment="Left" VerticalAlignment="Top" Height="77" Width="87"/>
-            <Button x:Name="BasketButton" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Center" Width="98" Style="{StaticResource SoftButtonStyle}" Foreground="White" Canvas.Left="26" Canvas.Top="15"/>
+            <Button x:Name="BasketButton" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Center" Width="98" Style="{StaticResource SoftButtonStyle}" Foreground="White" Canvas.Left="26" Canvas.Top="15" Click="BasketButton_Click"/>
             <Button x:Name="ReserveButton" Content="Reserve" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="110" Style="{StaticResource SoftButtonStyle}" FontSize="16" FontWeight="SemiBold" Canvas.Left="167" Canvas.Top="15"/>
             <Button x:Name="ComplainButton" Content="Submit Complaint" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="150" Style="{StaticResource SoftButtonStyle}" FontSize="16" FontWeight="SemiBold" Canvas.Left="287" Canvas.Top="15" Click="ComplainButton_Click"/>
             <Image Source="basket.png" Height="28" Canvas.Left="61" Canvas.Top="24" Width="28" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         </Canvas>
-        <Button x:Name="SaladButton" Content="Salad" HorizontalAlignment="Left" Height="39" Margin="617,96,0,0" VerticalAlignment="Top" Width="173" Style="{StaticResource SoftButtonStyle}"/>
+
+        <Button x:Name="SaladButton" Content="Salad" HorizontalAlignment="Left" Height="39" Margin="617,96,0,0" VerticalAlignment="Top" Width="173" Style="{StaticResource SoftButtonStyle}" Click="SaladButton_Click"/>
         <Button x:Name="MainDishButton" Content="Dishes" HorizontalAlignment="Center" Height="39" Margin="0,96,0,0" VerticalAlignment="Top" Width="173" Style="{StaticResource SoftButtonStyle}"/>
-        <Button x:Name="DessertButton" Content="Desert" HorizontalAlignment="Left" Height="39" Margin="25,96,0,0" VerticalAlignment="Top" Width="173" Style="{StaticResource SoftButtonStyle}"/>
+        <Button x:Name="DessertButton" Content="Dessert" HorizontalAlignment="Left" Height="39" Margin="25,96,0,0" VerticalAlignment="Top" Width="173" Style="{StaticResource SoftButtonStyle}"/>
 
         <Grid x:Name="CommentSection" Background="#AA000000" Visibility="Collapsed" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <Border Background="White" Margin="50" Padding="20">
@@ -62,7 +66,6 @@
                     <Button x:Name="CloseCommentsButton" Content="Close Comments" Click="CloseCommentsButton_Click" Margin="0,0,0,10"/>
                     <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" MaxHeight="300">
                         <StackPanel x:Name="CommentStackPanel" Margin="0,10">
-
                         </StackPanel>
                     </ScrollViewer>
                     <TextBox x:Name="NewCommentTextBox" Width="400" Height="50" Margin="0,10" TextWrapping="Wrap" AcceptsReturn="True" Text="Add a comment..." />
@@ -80,5 +83,35 @@
             <Button Content="Submit" Width="75" Height="30" Canvas.Top="210" Canvas.Left="10" Click="SubmitComplaintButton_Click"/>
             <Button x:Name="CloseComplainButton" Content="Close" Height="30" Canvas.Left="207" Canvas.Top="210" Width="83" Click="CloseComplainButton_Click" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Canvas>
+
+        <TextBlock x:Name="AverageRatingTextBlock" FontSize="16" FontWeight="Bold" Margin="455,34,74,543"><Run Text="Average Rating:"/><LineBreak/><Run/></TextBlock>
+
+        <Grid x:Name="CartSection" Background="#AA000000" Visibility="Collapsed" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Border Background="White" Margin="50" Padding="20">
+                <StackPanel>
+                    <Button x:Name="CloseCartButton" Content="Close Cart" Click="CloseCartButton_Click" Margin="0,0,0,10"/>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" MaxHeight="300">
+                        <StackPanel x:Name="CartStackPanel" Margin="0,10">
+                        </StackPanel>
+                    </ScrollViewer>
+                    <TextBlock x:Name="TotalPriceTextBlock" FontSize="16" FontWeight="Bold" Margin="0,10"/>
+                    <Button x:Name="OrderButton" Content="Order" Click="OrderButton_Click" Margin="0,10,0,10"/>
+                    <Button x:Name="ClearCartButton" Content="Clear Cart" Click="ClearCartButton_Click" Margin="0,0,0,10"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Canvas x:Name="PaymentOptionsCanvas" HorizontalAlignment="Left" Height="355" Margin="10,77,0,0" VerticalAlignment="Top" Width="341" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/a65cb5e442c0eb58c5f960aa6d6d4629.jpg"/>
+
+
+            </Canvas.Background>
+            <Button Content="Offline Payment" Click="OfflinePaymentButton_Click" Canvas.Left="46" Canvas.Top="178" Height="48" Width="114" HorizontalAlignment="Center" VerticalAlignment="Top" Style="{StaticResource SoftButtonStyle}"/>
+            <Button Content="Online Payment" Click="OnlinePaymentButton_Click" Canvas.Left="180" Canvas.Top="178" Height="48" Width="114" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource SoftButtonStyle}"/>
+            <Button x:Name="OrderCloseButton" Content="Close" Height="54" Canvas.Left="114" Canvas.Top="242" Width="114" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource SoftButtonStyle}"/>
+            <TextBlock x:Name="PaymentMethodTB" Height="91" Canvas.Left="46" TextWrapping="Wrap" Text="Please select your preferred payment method from the choices here." Canvas.Top="45" Width="239" FontSize="16"/>
+        </Canvas>
+
+
     </Grid>
 </Page>

@@ -1,0 +1,76 @@
+﻿<Page x:Class="AP_FinalProject.JoAdminPanel"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AP_FinalProject"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="JoAdminPanel">
+    <Page.Resources>
+        <Style x:Key="SoftButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                         CornerRadius="10"
+                         BorderThickness="2"
+                         BorderBrush="#FF0E0D0D">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Effect">
+                                    <Setter.Value>
+                                        <BlurEffect Radius="5"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/pi78gpM5T.png"/>
+        </Grid.Background>
+        <Button x:Name="AddDishButton" Content="Add Dish" HorizontalAlignment="Left" Height="44" Margin="70,59,0,0" VerticalAlignment="Top" Width="178" Click="AddDishButton_Click" Style="{StaticResource SoftButtonStyle}"/>
+        <Canvas x:Name="AddDishCanvas" HorizontalAlignment="Center" Height="400" VerticalAlignment="Center" Width="576" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/Horizontal.jpg"/>
+            </Canvas.Background>
+            <Button x:Name="ApplyAddDishButton" Content="Appy" Height="41" Canvas.Left="113" Canvas.Top="317" Width="175" Click="ApplyAddDishButton_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Button x:Name="CloseAddDishButton" Content="Close" Height="40" Canvas.Left="293" Canvas.Top="318" Width="172" Click="CloseAddDishButton_Click"/>
+            <TextBlock Height="29" Canvas.Left="288" TextWrapping="Wrap" Text="Dish Availibility:" Canvas.Top="159" Width="131" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" FontWeight="SemiBold" RenderTransformOrigin="0.718,0.352"/>
+            <TextBlock Height="40" Canvas.Left="82" TextWrapping="Wrap" Text="Dish Price: " Canvas.Top="160" Width="70" FontSize="14" FontWeight="SemiBold" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock Height="34" Canvas.Left="82" TextWrapping="Wrap" Text="Dish name:" Canvas.Top="40" Width="133" FontSize="14" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Height="33" Canvas.Left="82" TextWrapping="Wrap" Canvas.Top="101" Width="154" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="14" FontWeight="SemiBold"><Run Text="Dish Discription:"/><LineBreak/><Run/></TextBlock>
+            <ComboBox x:Name="DishTypeComboBox" Height="34" Canvas.Left="215" Canvas.Top="228" Width="146" RenderTransformOrigin="0.91,0.461" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <ComboBoxItem>Main Dish</ComboBoxItem>
+                <ComboBoxItem>Salad</ComboBoxItem>
+                <ComboBoxItem>Dessert</ComboBoxItem>
+            </ComboBox>
+
+
+            <TextBox x:Name="DishNameTextBox" Height="38" Canvas.Left="215" TextWrapping="Wrap" Canvas.Top="36" Width="263" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBox x:Name="DishDiscriptionTextBox" Height="37" Canvas.Left="215" TextWrapping="Wrap" Canvas.Top="101" Width="263" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox x:Name="AddDishPriceTextBox" Height="29" Canvas.Left="178" TextWrapping="Wrap" Canvas.Top="160" Width="98"/>
+            <TextBox x:Name="DishAvailibilityTextBox" Height="24" Canvas.Left="402" TextWrapping="Wrap" Canvas.Top="160" Width="76" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock Height="34" Canvas.Left="82" TextWrapping="Wrap" Canvas.Top="228" Width="194" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="SemiBold"><Run Text="DishType:"/><LineBreak/><Run/></TextBlock>
+        </Canvas>
+        <Button x:Name="RemoveDishButton" Content="Remove Dish" HorizontalAlignment="Left" Height="44" Margin="299,59,0,0" VerticalAlignment="Top" Width="181" Style="{StaticResource SoftButtonStyle}" Click="RemoveDishButton_Click"/>
+        <Canvas x:Name="RemoveDishCanvas" HorizontalAlignment="Center" Height="282" VerticalAlignment="Center" Width="508" Visibility="Collapsed">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/pi78gpM5T.png"/>
+            </Canvas.Background>
+            <Button x:Name="RemoveApplyButton" Content="Apply" Height="27" Canvas.Left="61" Canvas.Top="206" Width="164" HorizontalAlignment="Left" VerticalAlignment="Center" Click="RemoveApplyButton_Click"/>
+            <Button x:Name="RemoveCloseButton" Content="Close" Height="27" Canvas.Left="254" Canvas.Top="206" Width="165" HorizontalAlignment="Left" VerticalAlignment="Center" Click="RemoveCloseButton_Click"/>
+            <TextBlock x:Name="RemoveDishIdTB" Height="30" Canvas.Left="58" TextWrapping="Wrap" Text="DishId:" Canvas.Top="111" Width="173" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" FontWeight="SemiBold"/>
+            <TextBox x:Name="RemoveDishIdTextBox" Height="30" Canvas.Left="231" TextWrapping="Wrap" Canvas.Top="111" Width="128" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock Height="26" Canvas.Left="61" TextWrapping="Wrap" Text="Enter the dish id which you want to delete from the system" Canvas.Top="37" Width="402" FontSize="14" FontWeight="DemiBold"/>
+        </Canvas>
+
+    </Grid>
+</Page>
